@@ -11,6 +11,7 @@ INSTALLATION INSTRUCTIONS:
 8. Navigate to Sandeep Minstry's Arduino LoRa library, found [here](https://github.com/sandeepmistry/arduino-LoRa)
 9. Either through the terminal or by dragging the file from your folder, insert the Arduino LoRA library into the build>libdeps>sparkfun_samd21_proRF folder.
 10. Now that the library is properly installed, the main.cpp file in the src folder in this repository can be copied into the main.cpp file in platformio.
+
 FLASHING FIRMWARE:
 1. The firmware in this repository operates on a simple sender-receiver topology.
 2. The sender code is labeled in main.cpp and is found in the first section from lines 1-55. Uncomment this block (and ensure that the client block is commented) when uploading the sender firmware.
