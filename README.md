@@ -10,3 +10,8 @@ INSTALLATION INSTRUCTIONS:
 7. Within this new ttgo-lora32-v21 folder, we will add both the Arduino LoRa library itself and an integrity.dat file. 
 8. Navigate to Sandeep Minstry's Arduino LoRa library, found [here](https://github.com/sandeepmistry/arduino-LoRa)
 9. Either through the terminal or by dragging the file from your folder, insert the Arduino LoRA library into the build>libdeps>sparkfun_samd21_proRF folder.
+
+FLASHING FIRMWARE
+1. The firmware in this repository operates on a simple sender-receiver topology.
+2. The sender code is labeled in main.cpp and is found in the first section from lines 1-55. Uncomment this block (and ensure that the client block is commented) when uploading the sender firmware.
+3. Conversely, the sender code is labeled in main.cpp and is found in the second section from lines 57-113. Uncomment this block (and ensure that the server block is commented) when uploading the client firmware.
